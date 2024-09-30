@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+}
+
+#text {
+    font-size: 40px;
+    font-weight: bold;
+    display: inline-block;
+    white-space: nowrap;
+    position: relative;
+    color: #333;
+}
+
+#message {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: green;
+}
+
+.hidden {
+    display: none;
+}
+
+/* 2) CSS: стилизует текст и сообщение, а также управляет скрытием текста через класс .hidden. */
